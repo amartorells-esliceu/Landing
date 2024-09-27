@@ -1,0 +1,31 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;  /*1ren = 16px*/
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+.titulo{
+    color: rgb(125, 53, 192);
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.titulo span{
+    color: rgb(103, 103, 226);
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2.6rem;
+}
