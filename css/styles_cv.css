@@ -1,0 +1,26 @@
+.apartat{
+    color: #319F46
+}
+
+.centro{
+    color: #5da1e0;
+    margin-bottom: -15px;
+}
+
+img{
+    width: 125px;
+    border-radius: 20px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #319F46;
+        color: white;
+    }
+}
