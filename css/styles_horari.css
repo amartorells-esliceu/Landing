@@ -1,0 +1,99 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;  /*1ren = 16px*/
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 2.0rem;
+}
+
+.titulo{
+    color: rgb(125, 53, 192);
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.titulo span{
+    color: rgb(103, 103, 226);
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid purple;
+}
+
+
+.dia{
+    color: black;
+    text-align: center;
+    background-color: rgb(134, 134, 229);
+}
+
+.titol{
+    color: black;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+
+.hora{
+    color: black;
+    text-align: center;
+    background-color: #7df396;
+}
+
+.pati{
+    color: black;
+    text-align: center;
+    background-color: rgb(233, 211, 170)
+}
+
+.sistema{
+    color: white;
+    text-align: center;
+    background-color: #088000;
+}
+
+.seguretat{
+    color: black;
+    text-align: center;
+    background-color: #84818E;
+}
+
+.web{ 
+    color: black;
+    text-align: center;
+    background-color: #8DEE00;
+}
+
+.servei{
+    color: white;
+    text-align: center;
+    background-color: #290087;
+}
+
+.empresa{
+    color: black;
+    text-align: center;
+    background-color: #4ABD8C;
+}

@@ -29,3 +29,31 @@ h2{
 p{
     font-size: 1.6rem;
 }
+
+a.link{
+    color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #319F46;
+        color: white;
+    }
+}
+
+img.curriculum{
+    width: 125px;
+    border-radius: 20px;
+}
+
+.apartat{
+    color: #319F46
+}
+
+
+.centro{
+    color: #5da1e0;
+    margin-bottom: -15px;
+}
