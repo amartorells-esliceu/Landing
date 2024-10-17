@@ -1,31 +1,109 @@
 html{
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+    box-sizing: inherit;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;  /*1ren = 16px*/
+    font-size: 16px;  /*1rem = 10px*/
 }
 
 h1{
-    font-size: 2.6rem;
+    font-size: 3.8rem;
 }
 
 h2{
-    font-size: 2.0rem;
+    font-size: 3.2rem;
 }
 
-.titulo{
-    color: rgb(125, 53, 192);
-    font-size: 3.8rem;
+h3{
+    font-size: 2.6rem;
+}
+
+h1,
+h2,
+h3{
     text-align: center;
 }
 
-.titulo span{
-    color: rgb(103, 103, 226);
-    font-size: 2rem;
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-p{
-    font-size: 1.6rem;
+a:hover {
+    color: rgb(103, 103, 226);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+main .projects{
+    background-color: pink;
+    padding: 1rem;
+}
+
+main .work {
+    background-color: red;
+    padding-left: 1rem;
+}
+
+main .education {
+    background-color: green;
+    padding-left: 1rem;
+}
+
+.reviwes{
+    background-color: blue;
+}
+
+
+main{
+    display: flex;
 }
