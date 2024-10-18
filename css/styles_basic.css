@@ -85,25 +85,43 @@ header .top {
 }
 
 main .projects{
-    background-color: pink;
     padding: 1rem;
+    border: solid 1px ;
+    width: 33%;
 }
 
 main .work {
-    background-color: red;
     padding-left: 1rem;
+    border: solid 1px ;
+    width: 33%;
 }
 
 main .education {
-    background-color: green;
     padding-left: 1rem;
-}
-
-.reviwes{
-    background-color: blue;
+    border: solid 1px ;
+    width: 33%;
 }
 
 
 main{
     display: flex;
+}
+
+.opinio {
+    border: solid 1px ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 200px;
+    margin: 5px;
+    border-radius: 10px; 
+}
+
+.reviwes {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
 }
