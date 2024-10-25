@@ -34,3 +34,16 @@ a {
 a:hover {
     color: rgb(103, 103, 226);
 }
+
+img{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 8rem;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
