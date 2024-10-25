@@ -32,15 +32,17 @@ html{
 }
 
 .galeria{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 1rem;
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+
 }
     img{
         width: 300px;
-        height: auto;
-        transition: transform 0.3s ease;
+        height: 300px;
+        object-fit: cover;
     }
