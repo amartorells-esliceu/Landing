@@ -1,3 +1,12 @@
+:root{
+    --primary-color: #D16104;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html{
     font-size: 62.5%;
 }
@@ -5,37 +14,88 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;  /*1ren = 16px*/
+    line-height: 1.5;
+    color: var(--primary-color);
 }
 
-h1{
-    font-size: 2.6rem;
+#showcase{
+    background-image: url(/primer_proyecto/img_landing/foto.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
 }
 
-h2{
-    font-size: 2.0rem;
+#showcase::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
 }
 
-.titulo{
-    color: rgb(125, 53, 192);
-    font-size: 3.8rem;
-    text-align: center;
-}
-
-.titulo span{
-    color: rgb(103, 103, 226);
-    font-size: 2rem;
-}
-
-p{
-    font-size: 1.6rem;
+h1, p, a{
+    z-index: 2;
 }
 
 a {
     color: inherit;
     text-decoration: none;
     transition: color 0.3s ease;
+    background-color: var(--primary-color);
+    padding: 3px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.8s ease;
+}
+
+#section-a{
+    padding: 20px;
+    text-align: center;
+}
+
+#section-b{
+    background-color: #f4f4f4;
+}
+
+#section-c{
+    display: flex;
+}
+
+.fonsOrange{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+div{
+    padding: 20px;
 }
 
 a:hover {
-    color: rgb(103, 103, 226);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+.link{
+    color: var(--primary-color);
+    cursor: pointer;
+    background-color: #f4f4f4;
+    align-items: center;
+}
+
+.capçalera{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
