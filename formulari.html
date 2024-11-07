@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles_formulari.css">
+</head>
+
+<body>
+    <h1>Exercici, formulari de registre</h1>
+    <form name="registreForm" action="" method="get">
+        <div>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+        
+        <div>
+            <label for="llinatges">Llinatges:</label>
+            <input type="text" id="llinatges" name="llinatges" required>
+        </div>
+        
+        <div>
+            <label for="home">Home:</label>
+            <input type="radio" id="home" name="genere" value="home" required>
+            
+            <label for="dona">Dona:</label>
+            <input type="radio" id="dona" name="genere" value="dona" required>
+            
+            <label for="altre">Altre:</label>
+            <input type="radio" id="altre" name="genere" value="altre" required>
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <label for="password">Contrasenya:</label>
+            <input type="password" id="password" name="password" required minlength="5" maxlength="10">
+        </div>
+        
+        <div>   
+            <label for="data_naixement">Data de Naixement:</label>
+            <input type="date" id="data_naixement" name="data_naixement" required>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="acceptar_termes" name="acceptar_termes" required>
+            <label for="acceptar_termes">Estic d'acord amb els termes i condicions</label>
+        </div>
+        
+        <div>
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
